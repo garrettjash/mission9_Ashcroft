@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.team-card {
+  background-color: #b1b1b1;
+  border-radius: 8px;
+  padding: 0px;
+  margin-bottom: 10px; /* Add margin between team cards */
+  width: calc(100% / 5);
+  margin: 5px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  justify-content: space-evenly;
+}
